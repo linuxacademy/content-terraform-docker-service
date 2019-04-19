@@ -27,6 +27,7 @@ variable "mysql_internal_network" {
 #Ghost varialbes
 variable "ghost_image" {
   description = "The Ghost image"
+  default     = "ghost:alpine"
 }
 
 variable "ghost_db_username" {
@@ -51,4 +52,5 @@ variable "ghost_public_network" {
 
 variable "ghost_ext_port" {
   description = "Ghost public port"
+  default     = "80"
 }
