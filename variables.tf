@@ -16,12 +16,12 @@ variable "mysql_network_alias" {
 
 variable "mysql_volume_name" {
   description = "The volume name for MySQL."
-  default     = "mysql_data"
+  default     = "ghost_mysql_data"
 }
 
 variable "mysql_internal_network" {
   description = "The network alias for Ghost"
-  default     = "mysql_internal_network"
+  default     = "ghost_mysql_internal_network"
 }
 
 #Ghost varialbes
