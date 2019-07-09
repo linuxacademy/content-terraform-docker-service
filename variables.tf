@@ -9,6 +9,11 @@ variable "mysql_root_password" {
   default     = "P4sSw0rd0!"
 }
 
+variable "mysql_db_password" {
+  description = "The DB password."
+  default     = "P4sSw0rd0!"
+}
+
 variable "mysql_network_alias" {
   description = "The network alias for MySQL."
   default     = "db"
