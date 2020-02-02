@@ -30,7 +30,7 @@ variable "mysql_internal_network" {
 }
 
 #Ghost varialbes
-variable "ghost_image" {
+variable "image_name" {
   description = "The Ghost image"
   default     = "ghost:alpine"
 }
